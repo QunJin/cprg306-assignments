@@ -6,7 +6,7 @@ export default function studentInfo() {
     <div>
       <h1>QunJin</h1>
       <p>
-        <Link className="bg-blue-900 text-white p-2 rounded hover:bg-blue-500" href="https://github.com/QunJin/cprg306-assignments" target="_blank">
+        <Link className="bg-blue-900 text-white p2 rounded hover:bg-blue-500" href="https://github.com/QunJin/cprg306-assignments" target="_blank">
           Visit my GitHub Repository
         </Link>
       </p>
