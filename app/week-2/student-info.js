@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function studentInfo() {
   return (
     <div>
-      <h1>QunJin</h1>
+      <h1>Quan Pham</h1>
       <p>
-        <Link className="bg-blue-900 text-white p-2 rounded hover:bg-blue-500" href="https://github.com/QunJin/cprg306-assignments" target="_blank">
+        <Link className="text-blue-600 underline hover:text-blue-300" href="https://github.com/QunJin/cprg306-assignments" target="_blank">
           Visit my GitHub Repository
         </Link>
       </p>
