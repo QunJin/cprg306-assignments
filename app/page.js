@@ -7,6 +7,7 @@ export default function Page() {
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <ul> 
       <li><Link className="text-purple-500 underline hover:text-purple-300" href="./week-2/">Week 2 assignments</Link></li>
+    
       </ul>
     </div>
   );
