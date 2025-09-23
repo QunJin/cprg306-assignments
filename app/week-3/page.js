@@ -1,7 +1,7 @@
 import ItemList from "./item-list";
 
 
-export default function Main(){
+export default function Week3(){
 
     return(
         <main className="text-center">
