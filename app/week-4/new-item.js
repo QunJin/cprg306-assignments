@@ -14,7 +14,7 @@ export default function NewItemComp(){
     }
 
     const decrement = () =>{
-        if (quantity > 1){
+        if (quantity >= 1){
             setQuantity(quantity - 1);
         }
     }
@@ -25,7 +25,7 @@ export default function NewItemComp(){
     if (quantity >= 20){
         buttonStyleInc = "w-8 h-8 flex items-center justify-center bg-gray-500 text-white rounded m-2 p-2";
     }
-    if (quantity <= 1){
+    if (quantity < 1){
         buttonStyleDec = "w-8 h-8 flex items-center justify-center bg-gray-500 text-white rounded m-2 p-2";
     }
 
